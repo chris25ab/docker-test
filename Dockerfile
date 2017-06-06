@@ -24,4 +24,6 @@ RUN gem install bundler && bundle install --jobs 20 --retry 5
 # Copy the main application.
 COPY . ./
 
-CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0", "--port", "3001"]
+CMD ["bundle", "exec", "rspec"]
+
+#CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0", "--port", "3001"]
