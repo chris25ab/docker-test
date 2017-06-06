@@ -27,3 +27,4 @@ COPY . ./
 CMD ["bundle", "exec", "rspec"]
 
 #CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0", "--port", "3001"]
+#test
